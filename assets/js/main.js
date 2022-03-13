@@ -33,9 +33,10 @@ $(".close").click(function(){
 })
 
 $(".popup_area").click(function(){
-  $(".popup_area").css("display", "none");
+  $(".popup_area").removeClass("active");
 })
 
+$('.sticky-block-wrapper').stickyBlock();
 
 })(jQuery);
 

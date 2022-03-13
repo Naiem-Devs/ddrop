@@ -200,10 +200,11 @@ li {
     text-align: center;
     color: #fff;
     margin-top: 27px;
-    line-height: 3.2;
+    line-height: 2.6;
     width: max-content;
     padding: 0 29px;
     font-size: 15px;
+    height: 40px;
 }
 
 .mobile-menu nav ul li a:hover { 
@@ -433,19 +434,23 @@ ul.social li {}
 /* Profile page Start */
 
 .header-area .row {align-items: center;}
-.menu {
-}
+.menu {width: max-content;}
 
 .menu li a {
     font-size: 14px;
-    margin-right: 15px;
+    margin-right: 4px;
     display: block;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+}
+
+.menu li a:hover {
+    background: #F3F4F4;
 }
 
 .menu li a.active {
-    padding: 12px;
     background: #F3F4F4;
-    border-radius: 8px;
 }
 
 .menu ul li {
@@ -552,11 +557,11 @@ ul.social li {}
     box-sizing: border-box;
     margin-bottom: 15px;
 }
-.user_profile_wrp {
-}
+.user_profile_wrp {transition: all .3s ease-in-out;}
 
 .user_profile_wrp.hide {
     display: none;
+    transition: all .3s ease-in-out;
 }
 
 .user_profile_wrp h4 {
@@ -582,6 +587,7 @@ ul.social li {}
     padding: 12px 0;
     margin-top: -15px;
     margin-bottom: 25px;
+    transition: all .3s ease-in-out;
 }
 
 .txt_copy a {
@@ -639,6 +645,12 @@ ul.social li a svg path {
   padding: 12px;
   border-radius: 10px !important;
   color: #000 !important;
+  margin: 0 2px;
+  transition: all .3s ease-in-out;
+}
+
+.Drops_btn button:hover {
+    background: #F3F4F4 !important;
 }
 
 .Drops_btn button span {
@@ -653,6 +665,7 @@ ul.social li a svg path {
 .product_blk.lg {
     width: 100%;
     max-width: 500px;
+    background: #fff;
 }
 
 .product_blk.lg .pdc_sold hr {
@@ -775,7 +788,7 @@ ul.token_sold {
 .pdc_sold {display: flex;justify-content: space-between;align-items: center;position: relative;padding-bottom: 10px;}
 
 .pdc_sold span {
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 13px;
 }
 
@@ -878,6 +891,7 @@ a.disable:hover:after {
 
 .edit_profile {
     display: none;
+    transition: all .3s ease-in-out;
 }
 
 .edit_profile .edit_btn_wrp a {
@@ -886,6 +900,7 @@ a.disable:hover:after {
 
 .edit_profile.active {
     display: block;
+    transition: all .3s ease-in-out;
 }
 
 .edit_profile input,.edit_profile textarea {
@@ -1038,10 +1053,23 @@ section.presale_area.dark .presale_title a {
     margin-top: 6px;
     max-width: 1185px;
     width: 100%;
-    height: 920px;
     background: #F3F4F4;
     border-radius: 10px;
     position: relative;
+    display: flex;
+    margin-right: 20px;
+    height: 98vh;
+}
+
+.presale_tab_img.prev2_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i.presele-v2 img {
+    width: max-content;
+    height: max-content;
 }
 
 a.dd {
@@ -1056,12 +1084,39 @@ a.dd {
     left: 10px;
     top: 10px;
     z-index: 99;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+
+a.dd:hover {
+    padding: 0 10px;
+    width: 135px;
+}
+
+a.dd:hover span {opacity: 1;margin: unset;margin-right: 4px;}
+
+a.dd span {
+    padding: 0px 5px;
+    color: #666666;
+    font-size: 14px;
+    transition: all .3s ease-in-out;
+    opacity: 0;
+    display: inline-block;
+    margin-left: -92px;
+    margin-right: 10px;
 }
 
 .presale_tab_img img {
     width: 100%;
+    object-fit: cover;
 }
-.presale_tab_cont {width: 550px;margin: auto;height: 100%;display: flex;flex-wrap: wrap;flex-direction: column;justify-content: space-between;padding: 30px 0 10px;align-items: center;}
+.presale_tab_cont {width: 550px;margin: 0 auto;height: auto;display: flex;flex-wrap: wrap;flex-direction: column;padding: 30px 0 10px;align-items: center;position: relative;}
+
+.presale_tab_cont ul.social {position: absolute;bottom: 15px;left: 50%;transform: translateX(-50%);width: max-content;margin: 30px auto 0;}
+
+.presale_tab_cont div#pills-tabContent {
+    margin: 70px 0px 10px;
+}
 
 .presale_tab_cont ul.social li {
     margin: 0 10px;
@@ -1080,32 +1135,17 @@ a.dd {
     margin: 0 4px;
     padding: 14px 10px;
     line-height: 1;
+    border-radius: 10px !important;
+    transition: all .3s ease-in-out;
 }
 
-.presale_tab_cont button.active {
+.presale_tab_cont button:hover {
     background: #F3F4F4 !important;
-    border-radius: 10px !important;
     color: #000 !important;
 }
-.nav {
-}
-.nav-pills {
-}
-.mb-3 {
-}
-.nav-item {
-}
-.nav-link {
-}
-.active {
-}
-.tab-content {
-}
-.tab-pane {
-}
-.fade {
-}
-.show {
+.presale_tab_cont button.active {
+    background: #F3F4F4 !important;
+    color: #000 !important;
 }
 .presale_blk {width: 550px;}
 
@@ -1262,7 +1302,7 @@ a.dd {
 }
 
 .total_sold span p {
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 400;
     margin-bottom: 10px;
 }
@@ -1335,11 +1375,11 @@ span.rang:after {
 }
 
 button#increment {
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 10px 10px 0px !important;
 }
 
 button#decrement {
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 0px 0px 10px !important;
 }
 
 
@@ -1368,6 +1408,7 @@ button#decrement {
 .cnt_wallet span {
     font-size: 14px;
     color: #666666;
+    cursor: pointer;
 }
 
 .cnt_wallet p {
@@ -1994,6 +2035,68 @@ a.Description_btn {
 /* Basic  page End */
 
 
+/* About  page Start */
+.about {text-align: center;}
+
+.about h2,.about a {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+section.about p {
+    text-align: left;
+}
+
+section.about .container {
+    max-width: 1050px;
+}
+.about .sec_title {
+}
+.about-btn {display: flex;justify-content: space-between;margin-top: 50px;}
+/* About  page End */
+
+
+/* About  page End */
+.ranking {max-width: 1250px;margin: 40px auto;}
+.ranking_item {
+}
+
+.ranking_item td i {
+    display: inline-block;
+    margin-right: 17px;
+}
+
+.ranking_item th i {
+    font-size: 22px;
+    margin-left: 5px;
+    display: inline-block;
+    transform: translateY(3px);
+}
+
+.ranking_item td {
+    font-size: 20px;
+    font-weight: 500;
+    width: 13.5%;
+}
+
+.ranking_item td:first-child {
+    width: 50%;
+}
+
+.ranking_item th {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ranking_item th strong {
+    font-size: 24px;
+}
+.table {
+}
+/* About  page End */
+
+
 
 /* footer Start */
 footer{margin-bottom: 20px;}
@@ -2016,12 +2119,11 @@ footer ul li a {
 }
 
 .cookis_cont p {
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 500;
     margin-bottom: 0;
 }
-.cookis_btn {
-}
+.cookis_btn {display: flex;align-items: center;padding-left: 34px;}
 
 .cookis_btn a.btn {
     padding: 12px 20px;
@@ -2032,13 +2134,26 @@ footer ul li a {
     box-sizing: border-box;
     border-radius: 8px;
     margin: 0 4px;
+    width: max-content;
 }
 .btn {
 }
 .cookis_btn a.btn.ative {background: #fff;color: #000;}
 .close {font-size: 28px;line-height: 0;font-weight: 300;transform: rotate(45deg) translateY(5px);display: inline-block;margin-left: 20px;}
 
-.popup_area {position: fixed;width: 100%;height: 100%;background: black;z-index: 99;display: flex;align-items: center;justify-content: center;}
+.popup_area {position: fixed;width: 100%;height: 100%;background: rgb(0 0 0 / 91%);z-index: 99;display: flex;align-items: center;justify-content: center;display: none;}
+
+.popup_area {}
+
+.popup_area.ps_v6 {
+    display: none;
+}
+
+.popup_area.active {
+    display: flex;
+}
+
+div#ps_v6 {}
 .popup_wrp {width: 370px;background: #fff;padding: 30px;border-radius: 15px;text-align: center;padding-bottom: 20px;}
 .popup_cont {
 }

@@ -1,17 +1,90 @@
 /* Big screen :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
+    section.cover_area.pb_100{padding-bottom: 0;}
+    .ranking_item td:first-child{
+    width: 46%;
+}
+.ranking_item td{
+    width: 14%;
+}
+.presale_tab_cont ul.social {
+    position: unset;
+    transform: unset;
+}
 
-     
-
+.presale_tab_cont div#pills-tabContent {
+    margin-top: 40px;
+}
 /* home page Start */
-.easy_claim_cont {
-    height: 550px;
+.easy_claim_cont {height: auto;}
+
+.easy_claim_cont.claim.title.bgColor {
+    height: 100%;
 }
 
 .claim.title i {
-    margin-top: 55px;
+    margin-top: 35px;
 }
 /* home page End */
+
+/* basic page Start */
+.basic_top {
+    max-width: 95%;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+/* basic page End */
+
+/* presale page Start */
+.presale_tab_cont {
+    width: 450px;
+    padding-top: 15px;
+}
+
+.presale_blk {
+    width: 450px;
+}
+
+.presale_tab_img {
+    height: 98vh;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 40px;
+}
+
+.presale_blk.Description p {
+    font-size: 13px;
+}
+
+.presale_blk.Description h2 {
+    font-size: 28px;
+}
+
+.faq .accordion-body p {
+    font-size: 14px;
+}
+
+.faq {
+    width: 450px;
+}
+
+.faq button {
+    font-size: 18px;
+    padding: 12px;
+}
+/* presale page End */
+
+/*  page Start */
+/*  page End */
+
+/*  page Start */
+/*  page End */
+
+/*  page Start */
+/*  page End */
+
+/*  page Start */
+/*  page End */
 
 /*  page Start */
 /*  page End */
@@ -28,16 +101,98 @@
     margin: 0 2px;
 }
 /* Profile page End */
+.easy_claim_cont{
+    height: auto;
+}
+.claim.title i{
+    margin-top: 20px;
+}
+/* basic page Start */
+.basic_top {
+    max-width: 90%;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+/* basic page End */
+
+/* presale page Start */
+.presale_title h2{
+    font-size: 28px;
+}
+.presale_tab_cont {
+    width: 450px;
+    padding-top: 15px;
+}
+
+.presale_blk {
+    width: 450px;
+}
+
+.presale_box {
+    margin-bottom: 25px;
+}
+
+.presale_tab_img {
+    height: 98vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.presale_blk.Description p {
+    font-size: 13px;
+}
+
+.presale_blk.Description h2 {
+    font-size: 28px;
+}
+
+.faq .accordion-body p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.faq {
+    width: 450px;
+}
+
+.faq button {
+    font-size: 18px;
+    padding: 12px;
+}
+.presale_tab_cont ul.social {
+    /* position: unset; */
+    /* transform: unset; */
+}
+
+.presale_tab_cont div#pills-tabContent {
+    margin-top: 40px;
+}
+/* presale page End */
+
+/* ranking page Start */
+.ranking_item td {
+    font-size: 16px;
+}
+
+.ranking_item td:first-child {
+    width: 43%;
+}
+/* ranking page End */
+
+
 
 }
 
  
 /* Tablet screen :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
+    .pb_100{
+    padding-bottom: 60px;
+}
     section.live_drop .container{
     max-width: 700px;
 }
+.cookis_cont p{}
 /* Home page Start */
 .title h1 {
     font-size: 36px;
@@ -89,6 +244,101 @@ p {
 /* Profile page End */
 
 /*  page Start */
+.basic_top {
+    margin-left: 36%;
+    max-width: 460px;
+}
+
+.basic_form {
+    margin-left: 36%;
+    max-width: 450px;
+}
+/*  page End */
+
+
+/* presale page Start */
+.presale_tab {
+    flex-wrap: wrap;
+}
+.presale_title h2{
+    font-size: 28px;
+}
+.presale_tab_cont {
+    width: 450px;
+    padding-top: 15px;
+    height: auto;
+    margin: 40px auto;
+}
+
+.presale_tab_cont ul#pills-tab {margin-bottom: 30px !important;}
+
+.presale_tab_cont div#pills-tabContent {
+    margin: 20px 0 20px;
+}
+
+.presale_blk {
+    width: 450px;
+}
+
+.presale_tab_img {
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 535px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.presale_blk.Description p {
+    font-size: 13px;
+}
+
+.presale_blk.Description h2 {
+    font-size: 28px;
+}
+
+.faq .accordion-body p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.faq {
+    width: 450px;
+}
+
+.faq button {
+    font-size: 18px;
+    padding: 12px;
+}
+.presale_tab_cont ul.social {
+    position: unset;
+    transform: unset;
+}
+
+.presale_tab_cont div#pills-tabContent {
+    margin-top: 40px;
+}
+/* presale page End */
+
+
+/* ranking page Start */
+.ranking_item td {
+    font-size: 16px;
+}
+
+.ranking_item td:first-child {width: 50%;}
+/* ranking page End */
+
+/*  page Start */
+/*  page End */
+
+/*  page Start */
+/*  page End */
+
+/*  page Start */
+/*  page End */
+
+/*  page Start */
 /*  page End */
 
 }
@@ -109,7 +359,7 @@ p {
 }
 
 p {
-    font-size: 16px !important;
+    font-size: 15px !important;
 }
 
 .drop_wrp {
@@ -157,6 +407,10 @@ img.exLeft,img.exRight {
     margin: auto;
     margin-bottom: 30px;
     max-width: 300px;
+}
+
+.product_blk.lg {
+    max-width: 331px;
 }
 .cover_img img {
     height: 190px;
@@ -248,7 +502,11 @@ br {
     margin-top: 40px;
 }
 .pb_100{
-    padding-bottom: 60px;
+    padding-bottom: 49px;
+}
+
+section.cover_area.pb_100 {
+    padding-bottom: 30px;
 }
 .pdc_edit a{
     padding:  10px 14px;
@@ -266,14 +524,301 @@ br {
 }
 /* Profile page End */
 
-/*  page Start */
+/*about  page Start */
+.about-btn {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.about h2, .about a {
+    font-size: 26px;
+}
+/*about  page End */
+
+/* basic page Start */
+.basic_form{
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+.basic_left {
+    left: -300px;
+}
+ul.wallet_list p {
+    overflow: hidden;
+    width: 90%;
+    font-size: 13px !important;
+}
+.radio_btn_blk p {
+    display: none;
+}
+
+.Add_wallet {
+    flex-wrap: wrap;
+}
+
+.Add_wallet a {
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.Mintprice_label {
+    flex-wrap: wrap;
+}
+
+.Mintprice_label p {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+label.switch_btn {
+}
+
+.Payout a {
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+}
+.file_cont span {
+    width: 100%;
+}
+
+.basic_form h4 {
+    font-size: 26px;
+}
+.nam_pic_wrp .fm_blk {
+    width: 75%;
+}
+.fm_blk input::placeholder{
+    font-size: 14px;
+}
+/* basic page End */
+
+/* explore page Start */
+.cookis {
+    flex-wrap: wrap;
+}
+
+.cookis_btn a.btn {
+    padding: 8px 20px;
+}
+
+.cookis_btn {
+    padding: 0;
+    margin-top: 18px;
+}
+
+a.close {
+    transform: rotate(45deg) translateY(-2px);
+}
+
+.cookis_cont {
+    text-align: center;
+}
+.product_blk.lg h4 {
+    font-size: 20px;
+}
+
+footer .row {
+}
+
+footer {
+    text-align: center;
+}
+
+.footer_nav.ftr_right {
+    text-align: center;
+}
+
+.footer_mid {
+    margin: 10px;
+}
+
+.row.mb_50 {
+}
+
+.live_drop_top h3 {
+    font-size: 20px;
+}
+/* explore page End */
+
+
+/* presale page Start */
+.faq h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.presale_tab {
+    flex-wrap: wrap;
+}
+.presale_title h2{
+    font-size: 22px;
+}
+.presale_tab_cont {
+    width: 100%;
+    padding-top: 15px;
+    height: auto;
+    margin: 25px auto;
+}
+.total_sold span{
+    font-size: 18px;
+}
+.presale_tab_cont ul#pills-tab {margin-bottom: 30px !important;width: 100%;justify-content: space-between;max-width: 400px;}
+
+.presale_tab_cont div#pills-tabContent {
+    margin: 10px 0 40px;
+}
+
+.presale_blk {
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.presale_tab_cont ul.social {}
+
+.presale_tab_img {
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 390px;
+    height: 280px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.presale_blk.Description p {
+    font-size: 13px;
+}
+
+.presale_blk.Description h2 {
+    font-size: 28px;
+}
+
+.faq .accordion-body p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.faq {
+    width: 100%;
+}
+
+.faq button {
+    font-size: 18px;
+    padding: 12px;
+}
+.Token_price {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 44px;
+    flex-direction: column;
+}
+
+.Token_price h4 {
+    margin-bottom: 14px;
+    text-align: center !important;
+}
+
+.cnt_wallet {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.input-group button {
+    width: 40px;
+    height: 40px;
+    padding: 0 !important;
+}
+
+.presale_tab_cont button {
+    padding: 13px;
+}
+
+.input-group input {
+    height: 40px;
+    padding-left: 0;
+}
+
+.couter_btn a {
+    height: 40px;
+    padding: 7px 10px;
+}
+
+.submit_btn {
+    padding: 11px;
+    font-size: 15px;
+}
+.sold_out_info ul{
+    flex-wrap: wrap;
+}
+
+.sold_out_info ul li {
+    width: 40%;
+}
+.cw-eth {flex-wrap: wrap;justify-content: center;flex-direction: column;text-align: center;padding-bottom: 2px;}
+
+.cw-eth p {
+    margin-bottom: 10px;
+}
+.presale_title {
+    text-align: center;
+}
+
+.presale_title a {
+    margin: auto;
+}
+.presale_tab_cont ul.social {
+    position: unset;
+    transform: unset;
+}
+
+.presale_tab_cont div#pills-tabContent {
+    margin-top: 40px;
+}
+/* presale page End */
+
+
+/*  page Start */
+.ranking_item table.table {
+    width: max-content;
+}
+
+.ranking_item {
+    overflow: auto;
+}
+
+.ranking_item td:first-child {}
+
+.ranking_item td {
+    font-size: 16px;
+}
+
+.ranking_item td i {
+    width: 70px;
+    height: 70px;
+}
+
+.ranking_item td i img {
+    width: 100%;
+    object-fit: cover;
+}
+
+section.ranking .container {
+    width: 100%;
+}
 /*  page End */
 
 /*  page Start */
-
 /*  page End */
- 
+
+/*  page Start */
+/*  page End */
+
+/*  page Start */
+/*  page End */
+
 }
  
 /* Large Mobile screen :480px. */
