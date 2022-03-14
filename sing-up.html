@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Explore</title>
+        <title>Sign Up</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<link rel="shortcut icon" type="image/x-icon" href="#">
@@ -58,7 +58,7 @@
                         <ul>
                             <li><a href="#" class="">Create drop</a></li>
                             <li>
-                               <a href="#" class="wallet_btn thm_btn">Connect wallet</a>
+                               <a href="#" id="wallet_btn" class="wallet_btn thm_btn">Connect wallet</a>
                             </li>
                         </ul>
                     </div>
@@ -121,7 +121,10 @@
                     <ul>
                         <li><a href="#">Explore</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#" class="thm_btn">Create drop</a></li>
+                        <li><a href="#" >Create drop</a></li>
+                        <li>
+                            <a href="#" id="wallet_btn" class="wallet_btn thm_btn">Connect wallet</a>
+                        </li>
                     </ul>
                 </div>
             </nav> 
@@ -427,10 +430,14 @@
             <script src="assets/js/main.js"></script>
             <script>
                 var popupSection = document.querySelector(".popup_area")
-                var connect_wallet_btn = document.querySelector(".wallet_btn")
+                var connect_wallet_btn = document.querySelector("#wallet_btn")
+                var popup_close_btn = document.querySelector(".popup_close")
                 
                 connect_wallet_btn.addEventListener("click", function(){
-                    popupSection.classList.toggle("active")
+                    popupSection.classList.add("active")
+                })
+                popup_close_btn.addEventListener("click", function(){
+                    popupSection.classList.remove("active")
                 })
             </script>
         </body>

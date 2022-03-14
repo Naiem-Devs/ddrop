@@ -1,5 +1,4 @@
 
-
 (function($) {
   "use strict";
   
@@ -38,8 +37,6 @@ $(".popup_close").click(function(){
 
 $('.sticky-block-wrapper').stickyBlock();
 
-})(jQuery);
-
 
 // increment / decrement 
 
@@ -72,3 +69,7 @@ dec.addEventListener("click", () => {
   }
   input.value = get();
 });
+
+
+})(jQuery);
+
