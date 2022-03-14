@@ -92,7 +92,7 @@ a {
   position: -webkit-sticky;
   position: sticky;
   will-change: transform;
-  top: 10px;
+  top: 90px;
 }
 
 @media (max-width: 767px) {

@@ -32,7 +32,7 @@ $(".close").click(function(){
   $(".cookis").css("display", "none");
 })
 
-$(".popup_area").click(function(){
+$(".popup_close").click(function(){
   $(".popup_area").removeClass("active");
 })
 
