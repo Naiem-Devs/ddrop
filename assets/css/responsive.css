@@ -19,8 +19,6 @@ section.live_drop .container {
 .ranking_item td{
     width: 14%;
 }
-.presale_tab_cont ul.social {
-}
 
 .presale_tab_cont div#pills-tabContent {
     margin-top: 40px;
@@ -193,7 +191,6 @@ section.cover_area .container {
     section.live_drop .container{
     max-width: 700px;
 }
-.cookis_cont p{}
 /* Home page Start */
 .title h1 {
     font-size: 36px;
@@ -502,9 +499,6 @@ br {
     display: block;
 }
 
-.mobile-menu.siteBar .mobile-menu nav ul li a {
-}
-
 .mobile-menu.siteBar .drop_down a p {
     margin-bottom: 5px;
 }
@@ -595,8 +589,6 @@ ul.wallet_list p {
     margin-bottom: 10px;
 }
 
-label.switch_btn {
-}
 
 .Payout a {
     width: 34px;
@@ -643,8 +635,6 @@ a.close {
     font-size: 20px;
 }
 
-footer .row {
-}
 
 footer {
     text-align: center;
@@ -658,9 +648,6 @@ footer {
     margin: 10px;
 }
 
-.row.mb_50 {
-}
-
 .live_drop_top h3 {
     font-size: 20px;
 }
@@ -672,7 +659,6 @@ footer {
     font-size: 24px !important;
 }
 
-.pdc_sold ul li {}
 
 .pdc_sold ul {
     display: flex;
@@ -710,8 +696,7 @@ section.presale_area.dark .presale_tab_cont ul#pills-tab {
     background: black;
 }
 
-main.presale_main {
-}
+
 .presale_title h2{
     font-size: 22px;
 }
@@ -736,7 +721,6 @@ main.presale_main {
     margin-bottom: 20px;
 }
 
-.presale_tab_cont ul.social {}
 
 .presale_tab_img {
     border-radius: 10px;
@@ -865,7 +849,6 @@ section.presale_area.dark ul.social li a:hover svg path {
     overflow: auto;
 }
 
-.ranking_item td:first-child {}
 
 .ranking_item td {
     font-size: 16px;
