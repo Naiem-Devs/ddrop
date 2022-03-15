@@ -1,7 +1,25 @@
 /* Big screen :1200px. */
+@media (min-width: 1500px) and (max-width: 1700px) {
+    section.presale_v3 .presale_tab_cont ul.social {
+        position: unset;
+        margin: auto;
+        width: max-content;
+        text-align: center;
+        transform: unset;
+        margin-top: 20px;
+    }
+}
 @media (min-width: 1200px) and (max-width: 1500px) {
     .container{
     max-width: 1200px;
+}
+section.presale_v3 .presale_tab_cont ul.social {
+    position: unset;
+    margin: auto;
+    width: max-content;
+    text-align: center;
+    transform: unset;
+    margin-top: 20px;
 }
 section.live_drop .container {
     max-width: 1071px;
@@ -22,6 +40,10 @@ section.live_drop .container {
 
 .presale_tab_cont div#pills-tabContent {
     margin-top: 40px;
+}
+
+section.presale_area.presale_v3 #pills-tabContent {
+    margin-top: 0;
 }
 /* home page Start */
 .easy_claim_cont {height: auto;}
@@ -53,6 +75,10 @@ section.live_drop .container {
 .presale_blk {
     width: 501px;
     padding: 0 30px;
+}
+
+.sold_out_title span br {
+    display: none;
 }
 
 .presale_tab_img {
@@ -126,6 +152,10 @@ section.live_drop .container {
 
 .presale_box {
     margin-bottom: 25px;
+}
+
+.sold_out_title span br {
+    display: none;
 }
 
 .presale_tab_img {
@@ -282,7 +312,11 @@ section.presale_area.dark ul.social li a:hover svg path {
     margin: 0px auto 0px;
 }
 
-.presale_tab_cont ul#pills-tab {position: fixed;width: 100%;justify-content: center;top: 0;padding: 15px 0 10px;z-index: 99;}
+.presale_tab_cont ul#pills-tab {position: fixed;width: 100%;justify-content: center;top: 0;padding: 15px 0 10px;z-index: 99;width: 100%;background: #fff;}
+
+section.presale_area.dark ul#pills-tab {
+    background: black;
+}
 
 .presale_tab_cont div#pills-tabContent {
     margin: 20px 0 20px;
@@ -290,6 +324,10 @@ section.presale_area.dark ul.social li a:hover svg path {
 
 .presale_blk {
     width: 450px;
+}
+
+.sold_out_title span br {
+    display: none;
 }
 
 .presale_tab_img {
@@ -521,6 +559,10 @@ br {
 
 section.cover_area.pb_100 {
     padding-bottom: 30px;
+}
+
+main.profile_dd {
+    padding-top: 65px;
 }
 .pdc_edit a{
     padding:  10px 14px;

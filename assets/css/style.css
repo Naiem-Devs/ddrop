@@ -137,7 +137,7 @@ li {
 }
 
 main {
-    padding-top: 77px;
+    padding-top: 75px;
 }
 
 main.presale_main {
@@ -1047,6 +1047,7 @@ section.presale_area.dark .presale_title a {
     display: flex;
     height: 98vh;
     margin-right: 20px;
+    overflow: hidden;
 }
 
 .presale_tab_img.prev2_img {
@@ -1103,6 +1104,23 @@ a.dd span {
     display: inline-block;
     margin-left: -160px;
     margin-right: 10px;
+}
+
+.dark a.dd {
+    background: black;
+    color: #fff;
+}
+
+.dark a.dd span {
+    color: #fff;
+}
+
+.dark a.dd svg path {
+    fill: #fff;
+}
+
+.dark a.dd img {
+    filter: invert(1);
 }
 
 .presale_tab_img img {
@@ -1943,6 +1961,10 @@ a.Description_btn {
 }
 
 .show{
+    display: block;
+}
+
+.form1.form-box.from-box-1.hide.show {
     display: block;
 }
 

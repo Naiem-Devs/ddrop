@@ -51,3 +51,30 @@
     $(".deshbord").addClass("show");
   })
   
+
+  let stapBtnContainer = document.querySelector(".stap-btn-container");
+let nextStapBtn = document.querySelectorAll(".next_stap_btn");
+
+let stapBtn = document.querySelectorAll(".stap-btn");
+
+let formBox = document.querySelectorAll(".form-box");
+
+stapBtnContainer.addEventListener("click", function (e) {
+  let stapBtnClicked = e.target.closest(".stap-btn");
+  stapBtn.forEach((sb) => sb.classList.remove("active"));
+  if (stapBtnClicked) {
+    stapBtnClicked.classList.add("active");
+  } else {
+    return;
+  }
+
+  formBox.forEach((B) => B.classList.remove("show"));
+  formBox.forEach((B) => B.classList.add("hide"));
+  //   console.log(clicked.dataset.tab);
+
+  document
+    .querySelector(`.from-box-${stapBtnClicked.dataset.stap}`)
+    .classList.add("show");
+});
+
+nextStapBtn.forEach.classList.add("hide");
