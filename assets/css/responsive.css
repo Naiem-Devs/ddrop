@@ -791,7 +791,9 @@ section.presale_area.dark .presale_tab_cont ul#pills-tab {
 }
 
 .faq {
-    max-width: 450px;
+    width: 100%;
+    max-width: 400px;
+    padding: 0;
 }
 
 .faq button {
