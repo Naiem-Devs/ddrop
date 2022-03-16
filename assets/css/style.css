@@ -1006,13 +1006,25 @@ section.presale_area.dark {
 section.presale_area.dark .accordion-button::after {
     filter: brightness(51.5) invert(1);
 }
-
+section.presale_area.dark .presale_tab_cont .faq button.accordion-button[aria-expanded="true"] {
+    background: #181818 !important;
+}
 section.presale_area.dark .faq button {
     background: #181818;
 }
 
+section.presale_area.dark .faq button.accordion-button.collapsed[aria-expanded="true"] {background: red !important;}
+
+section.presale_area.dark .faq button.active {
+    color: black !important;
+}
+
 section.presale_area.dark .presale_tab_cont button {
     color: #fff !important;
+}
+
+section faq button.active {
+    color: black !important;
 }
 
 section.presale_area.dark .presale_tab_cont button.active {
@@ -1159,6 +1171,19 @@ a.dd span {
 .presale_tab_cont button:hover {
     background: #F3F4F4 !important;
     color: #000 !important;
+}
+
+section.presale_area.dark .presale_tab_cont button:hover {
+    color: black !important;
+    background: #F3F4F4 !important;
+}
+
+.presale_tab_cont .faq button:hover {
+    background: #181818 !important;
+}
+
+section.presale_area.dark .faq button.active:hover {
+    color: black !important;
 }
 .presale_tab_cont button.active {
     background: #F3F4F4 !important;
@@ -1432,6 +1457,7 @@ button#decrement {
 
 .faq {
     width: 550px;
+    padding: 0 30px;
 }
 
 .faq h1 {

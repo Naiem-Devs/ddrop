@@ -80,3 +80,19 @@ document.querySelector(".next").addEventListener("click", () => {
 });
 
 renderCalendar();
+
+
+
+var days = document.querySelectorAll('.days div')
+
+days.forEach(day => {
+    day.addEventListener('click', () => {
+        removeToday()
+        day.classList.add('today')
+    })
+})
+function removeToday() {
+    days.forEach(day => {
+        day.classList.remove('today')
+    })
+}
